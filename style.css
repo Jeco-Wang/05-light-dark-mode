@@ -11,6 +11,8 @@
   --box-shadow: 0 5px 20px 1px rgba(0, 0, 0, 0.5);
 }
 
+/* Be equivalent to html[data-theme='dark'] ??*/
+/* https://lukelowrey.com/css-variable-theme-switcher/ */
 [data-theme='dark'] {
   --primary-color: rgb(150, 65, 255);
   --primary-variant: #6c63ff;
